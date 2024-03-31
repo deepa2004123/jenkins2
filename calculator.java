@@ -1,4 +1,4 @@
-public class calculator{
+public class calculator extends ext_calculator{
 
    
 
@@ -72,6 +72,10 @@ public class calculator{
 
         float divisionResult = divide(operand1, operand2);
 
+        float square = square(operand1);
+
+        float cube= cube(operand1);
+
  
 
         // Display results
@@ -83,6 +87,10 @@ public class calculator{
         System.out.println("Multiplication: " + multiplicationResult);
 
         System.out.println("Division: " + divisionResult);
+
+        System.out.println("Square:" +square);
+
+        System.out.println("Cube: " + cube );
 
     }
     }
